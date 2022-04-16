@@ -1,0 +1,101 @@
+
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc {
+    font-style: italic;
+    color: rgb(58, 58, 58);
+}
+
+.bodystyle {
+    position: absolute;
+    border-bottom: solid 3px white;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 10%;
+    background-color: rgb(151, 187, 187);
+    padding: 5px;
+}
+.divider {
+    background-color: rgb(151, 187, 187);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.footer {
+    background-color: rgb(151, 187, 187);
+    border-top: solid 3px white;
+    height: 40px;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    margin: 0;
+
+}
+
+a {
+    font-weight: bold; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+.backtotop:hover {
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+}
+
+.headertitle {
+    color: white;
+    float: left;
+    font-size: 50px;
+
+}
+
+.accent {
+    background-color: rgb(151, 187, 187);
+}
+
+.textaccent {
+    color: rgb(151, 187, 187);
+}
+
+.text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.down {
+    position:static;
+    top:10%;
+}
+
+.backtotop {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(151, 187, 187);
+    color: white;
+    bottom: 70%;
+    position: relative;
+    border: solid 3px white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tablink {
+    color:(151, 187, 187);
+}

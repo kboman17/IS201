@@ -1,0 +1,103 @@
+.divcolor {
+    color: darkgray;
+}
+.accent {
+    background-color: rgb(151, 187, 187);
+}
+
+.textaccent {
+    color:rgb(151, 187, 187);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(95, 165, 165);
+}
+
+.center {
+    text-align: justify;
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 8px rgb(151, 187, 187);
+
+}
+
+.backtotop {
+    --offset: 100px;
+    position: sticky;
+    bottom:20px;
+    margin-left: 95%;
+    margin-top: calc(100vh + var(--offset));
+
+}
+
+.hpsubheader {
+    font-size: 17px;
+
+}
+
+.text:hover {
+
+    color:lightblue
+
+}
+
+.normaltext {
+    font-style: normal;
+}
+
+.menutext {
+    color: black;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: rgb(151, 187, 187);;
+}
+
+.divaccent {
+    background-color: rgb(151, 187, 187);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.background {
+    background-color: lightgray;
+}
+
+
+
+
+.noborder {
+    border: 0;
+}
+
+.sticky {
+    position: sticky;
+    top:80%;
+}
+
+.imgright {
+    float: right;
+}
+
+.imgcropped {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border: solid 8px rgb(151, 187, 187);
+}
